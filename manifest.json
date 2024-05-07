@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§u§lHotbar switcher",
+        "description": "§7Developed and maintained by §5Zakleby",
+        "uuid": "f5b9bd5a-862a-4be1-b6e7-dc2796af7d88",
+        "version": [ 1, 0, 7 ],
+        "min_engine_version": [ 1, 19, 50 ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "48a75412-1765-4398-bb98-6b367343e3bd",
+            "entry": "scripts/hotbarSwitcher.js",
+            "version": [ 1, 0, 7 ]
+        }
+    ],
+    "capabilities": [ "script_eval" ],
+
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
